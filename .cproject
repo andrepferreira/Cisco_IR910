@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.buildroot.opt.sdk_1.1..toolchain.base.978379388">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.buildroot.opt.sdk_1.1..toolchain.base.978379388" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" id="org.buildroot.opt.sdk_1.1..toolchain.base.978379388" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="org.buildroot.opt.sdk_1.1..toolchain.base.978379388.1978264377" name="/" resourcePath="">
+						<toolChain id="org.buildroot.opt.sdk_1.1..toolchain.base.129562548" name="org.buildroot.opt.sdk_1.1..toolchain.base" superClass="org.buildroot.opt.sdk_1.1..toolchain.base">
+							<option id="org.buildroot.opt.sdk_1.1..toolchain.base.option.path.308216802" name="Path" superClass="org.buildroot.opt.sdk_1.1..toolchain.base.option.path"/>
+							<option id="org.buildroot.opt.sdk_1.1..toolchain.base.option.prefix.1628177975" name="Prefix" superClass="org.buildroot.opt.sdk_1.1..toolchain.base.option.prefix"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.GNU_ELF" id="org.buildroot.opt.sdk_1.1.platform.base.1520633580" isAbstract="false" name="Buildroot ARM Platform (/opt/sdk_1.1)" osList="linux" superClass="org.buildroot.opt.sdk_1.1.platform.base"/>
+							<builder id="org.buildroot.opt.sdk_1.1.builder.690018680" managedBuildOn="false" name="Buildroot ARM builder (/opt/sdk_1.1).Default" superClass="org.buildroot.opt.sdk_1.1.builder"/>
+							<tool id="org.buildroot.opt.sdk_1.1.assembler.1314181700" name="Buildroot ARM Assembler (/opt/sdk_1.1)" superClass="org.buildroot.opt.sdk_1.1.assembler"/>
+							<tool id="org.buildroot.opt.sdk_1.1.c.compiler.1175165942" name="Buildroot ARM C Compiler (/opt/sdk_1.1)" superClass="org.buildroot.opt.sdk_1.1.c.compiler"/>
+							<tool id="org.buildroot.opt.sdk_1.1.c.linker.1266294583" name="Buildroot ARM C Linker (/opt/sdk_1.1)" superClass="org.buildroot.opt.sdk_1.1.c.linker"/>
+							<tool id="org.buildroot.opt.sdk_1.1.cc.compiler.1992633960" name="Buildroot ARM C++ Compiler (/opt/sdk_1.1)" superClass="org.buildroot.opt.sdk_1.1.cc.compiler"/>
+							<tool id="org.buildroot.opt.sdk_1.1.cc.linker.167679267" name="Buildroot ARM CC Linker (/opt/sdk_1.1)" superClass="org.buildroot.opt.sdk_1.1.cc.linker"/>
+							<tool id="org.buildroot.opt.sdk_1.1.pkgconfig.62016592" name="Buildroot ARM Pkg config (/opt/sdk_1.1)" superClass="org.buildroot.opt.sdk_1.1.pkgconfig"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="lora_rx_logger.null.1541462694" name="lora_rx_logger"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>
