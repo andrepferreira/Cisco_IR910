@@ -1,3 +1,38 @@
+Cisco IR910 modified logger code
+===================
+This is an upload of the Eclipse IDE folder holding the modified version of the Semtech LoRa code. The code was cross compiled using the Cisco provided toolchain, and was modified to accept command line options when executed on the IR910.
+
+Notes:
+
+    The IR910 can only run version 1.7 and below of the Semtech code due to the fact that it implements the "USB" style radio interface.
+
+    This code assumes an already cross compiled version of the Semtech library (See library repo here as well). The library project will be required to compile this code.
+    
+    The command line options are as follows:
+    
+    (Output is always written to log file. This is the default if no params are specified)
+    
+	    -help print this help
+	    -h MQTT Server. Required to enable MQTT logging
+	    -u MQTT Username. Optional
+	    -P MQTT Password. Optional
+	    -t MQTT Topic. Optional. Of the form "main_topic/sub_topic/". Trailing / is required
+	    -r <int> rotate log file every N seconds (-1 disable log rotation)
+	   
+
+The magic all happens in the file:
+
+    log_pkt_mqtt_file.c
+    
+The binary version of this file needs to be copied to the 910 along with the library file. It can then be executed either via the command line or a startup script. It has some limited error checking and will generally die if an error condition exists (such as MQTT server goes offline). Log files are written to the folder from which the file is executed.
+    
+The config files (global_conf.json and local_conf.json) are required to configure the network parameters at runtime. 
+
+====================
+
+
+
+
 	 / _____)             _              | |    
 	( (____  _____ ____ _| |_ _____  ____| |__  
 	 \____ \| ___ |    (_   _) ___ |/ ___)  _ \ 
